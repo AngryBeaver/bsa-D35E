@@ -4,7 +4,6 @@
 ![Download Count](https://img.shields.io/github/downloads/AngryBeaver/bsa-D35E/total?color=bright-green)
 
 not yet ready needs system patch
-https://gitlab.com/dragonshorn/D35E/-/merge_requests/907
 
 link to module
 https://github.com/AngryBeaver/bsa-D35E/releases/latest/download/module.json
