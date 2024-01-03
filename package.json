@@ -3,7 +3,7 @@
 	"title": "Beaver's System Adaption D35E",
 	"version": "1.0.0",
 	"description": "Beaver's System Adaption D35E",
-	"devDir": "C:\\Users\\Riess\\AppData\\Local\\FoundryVTT\\Data\\modules",
+	"devDir": "D:\\Vtts\\v11.315\\Data\\modules",
 	"main": "src/main.js",
 	"files": [
 		"src/types.ts"

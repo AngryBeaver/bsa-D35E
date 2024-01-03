@@ -34,6 +34,10 @@ export class D35E implements SystemApi {
         const tabContent = $('<div class="tab" data-group="primary" data-tab="' + tabData.id + '"></div>');
         body.append(tabContent);
         tabContent.append(tabBody);
+        if (!sheet._tabs?.[0] ) {
+            sheet.options.tabs = [{navSelector: ".tabs", contentSelector: ".primary-body", initial: "details"}];
+            sheet._tabs = sheet._createTabHandlers();
+        }
     }
 
     itemSheetReplaceContent(app, html, element): void {
