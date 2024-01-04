@@ -9,12 +9,11 @@ export class D35E implements SystemApi {
     }
 
     async actorRollSkill(actor, skillId) {
-        const roll = await actor.rollSkill(skillId);
-        return roll[0];
+        return await actor.rollSkill(skillId);
     }
 
     async actorRollAbility(actor, abilityId) {
-        const roll = await actor.rollAbilityTest(abilityId);
+        const roll = await actor.rollAbilityTest(abilityId)
         return roll[0];
     }
 
