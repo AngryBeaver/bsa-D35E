@@ -2,7 +2,7 @@
     "title": "Beaver's System Adaption D35E",
     "description": "D35E implementation for Beaver's System Interface",
     "id": "bsa-D35E",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "authors": [
       {
         "name": "angryBeaver",
